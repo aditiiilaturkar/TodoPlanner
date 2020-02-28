@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>myTodo</title>
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="myTodo.css"/>
+
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">myTodo</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="./myTodo.html">Home</a></li>
+            <li><a href="#" id="myBtn">Add task</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+    <div class="row">
+    </div>
+
+    <div id="myModal" class="modal" >
+      <div class="modal-content">
+            <span class="closing">&times;</span>
+            <legend><span class="number">1</span> My Todo</legend>
+            <div class="modal-body">
+            <input type="text" id="title_input" placeholder="Add title to the list" name="title" />
+
+            <ul id="list_input"> </ul>
+            <input type="text" id="input"  autocomplete="off" placeholder="Add task " name="task"/>
+            <button onclick=addToList()>+</button>
+            <br><br>
+            <button type="submit" onclick=addTask()>Submit</button>
+        </div>
+      </div>
+      
+    </div>
+      
+
+<script src="myTodo.js"></script>
+    
+</body>
+</html>
