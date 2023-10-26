@@ -1,14 +1,14 @@
-================ myTodo Introduction ============
+# ToDoPlanner
+This project provides the frontend implementation for a Todo Application. It allows users to create and manage tasks within different lists. The application is built using HTML, JavaScript, and CSS.
 
-The project covers complete frontend side of todo application.
-Built using HTML, JavaScript , CSS.
-
-A todo card can be added to the application along with the title of the list.
-
-Once task is completed mark the task as done and checkbox will get disabled.
-
-Also, once all the tasks under a title are completed you can delete the todo card with 'x' button provided.
+Features
+- Create and manage tasks in a user-friendly interface.
+- Ability to categorize tasks under different titles/lists.
+- Mark tasks as completed, which disables the checkbox.
+- Delete a list of tasks once all tasks within it are completed.
 
 
-
-
+Technologies Used
+- HTML: Used for structuring the webpage.
+- CSS: Provides styling and layout for the application.
+- JavaScript: Enables dynamic and interactive features.
